@@ -22,6 +22,7 @@ public class LambdaButtons implements ActionListener {
 		
 		//1. Call the addActionListener methods for each button. Use lambdas
 		//   to define to functionality of the buttons.
+		addNumbers.addActionListener(this);
 		randNumber.addActionListener(this);
 		tellAJoke.addActionListener(this);
 		
