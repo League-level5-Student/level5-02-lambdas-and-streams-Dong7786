@@ -33,6 +33,8 @@ public class CreatingStreams {
 		dQueue.push(2.0);
 		dQueue.push(3.0);
 		Stream<Double> stream4 = dQueue.stream();
+	
 		
+	
 	}
 }
